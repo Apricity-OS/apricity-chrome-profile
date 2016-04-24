@@ -2,7 +2,7 @@
 
 _pkgname='Apricity Chrome Profile'
 pkgname=apricity-chrome-profile
-pkgver=0.1.3
+pkgver=0.1.4
 pkgrel=1
 pkgdesc='Default Google Chrome Profile for Apricity OS'
 arch=(any)
@@ -10,7 +10,7 @@ license=(GPL)
 url="https://github.com/Apricity-OS/apricity-chrome-profile"
 depends=()
 source=("apricity-chrome-profile.tar.gz")
-sha256sums=('a0f6ff51ae8f3c96b079d8128758759bed3b95a2cd9122d2c5306856453e56d9')
+sha256sums=('27be5797f8742b83974d427647e7abd64c1bd8325b6b29afafd8fa156b6bcf7d')
 
 package() {
 	mkdir -p "${pkgdir}/etc/apricity-assets"
