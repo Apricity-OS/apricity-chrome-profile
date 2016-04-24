@@ -10,7 +10,7 @@ license=(GPL)
 url="https://github.com/Apricity-OS/apricity-chrome-profile"
 depends=()
 source=("apricity-chrome-profile.tar.gz")
-sha256sums=('27680a276e4e4564ace715f686703146f64eac1d20eb82838635e887ccb23124')
+sha256sums=('a0f6ff51ae8f3c96b079d8128758759bed3b95a2cd9122d2c5306856453e56d9')
 
 package() {
 	mkdir -p "${pkgdir}/etc/apricity-assets"
